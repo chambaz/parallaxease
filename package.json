@@ -1,6 +1,6 @@
 {
   "name": "parallaxease",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "parallaxease.js",
   "author": "Adam Chambers, @chambaz",
   "description": "An easing parallax library",
