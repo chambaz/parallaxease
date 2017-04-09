@@ -4,6 +4,7 @@
   "description": "An easing parallax library",
   "main": "parallaxease.js",
   "scripts": {
+    "build": "browserify browser.js > public/bundle.js",
     "start": "node server.js"
   },
   "author": "Adam Chambers, @chambaz",
@@ -11,6 +12,7 @@
   "devDependencies": {
     "eslint": "^3.5.0",
     "patterns": "^1.0.3",
-    "st": "^1.2.0"
+    "st": "^1.2.0",
+    "browserify": "^14.3.0"
   }
 }
