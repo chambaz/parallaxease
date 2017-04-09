@@ -1,0 +1,1 @@
+var parallaxease = require('./parallaxease')
