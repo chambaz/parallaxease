@@ -4,7 +4,7 @@
   "description": "An easing parallax library",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Adam Chambers, @chambaz",
   "license": "MIT",
