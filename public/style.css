@@ -11,3 +11,23 @@ body {
 .title {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.card {
+  height: 300px;
+  padding: 20px;
+  width: 33.33333%;
+}
+
+.card__inner {
+  background: #ccc;
+  height: 100%;
+  width: 100%;
+}
