@@ -3,6 +3,10 @@
 }
 
 body {
+  background: url('/beastmode.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
   font-family: Helvetica, Arial, Sans-Serif;
   margin: 0;
   padding: 1.25em;
