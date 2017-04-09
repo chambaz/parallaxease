@@ -27,11 +27,17 @@ body {
 .card {
   height: 300px;
   padding: 20px;
-  width: 33.33333%;
+  width: 100%;
 }
 
 .card__inner {
   background: #ccc;
   height: 100%;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 33.33333%;
+  }
 }
