@@ -1,13 +1,18 @@
 {
   "name": "parallaxease",
-  "version": "0.0.0",
-  "description": "An easing parallax library",
+  "version": "1.0.0",
   "main": "parallaxease.js",
+  "author": "Adam Chambers, @chambaz",
+  "description": "An easing parallax library",
+  "homepage": "https://parallaxease-ldumrwjimx.now.sh/",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/chambaz/parallaxease.git"
+  },
   "scripts": {
     "build": "browserify browser.js > public/bundle.js",
     "start": "node server.js"
   },
-  "author": "Adam Chambers, @chambaz",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.5.0",
