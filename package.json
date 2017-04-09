@@ -1,0 +1,16 @@
+{
+  "name": "parallaxease",
+  "version": "0.0.0",
+  "description": "An easing parallax library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adam Chambers, @chambaz",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "patterns": "^1.0.3",
+    "st": "^1.2.0"
+  }
+}

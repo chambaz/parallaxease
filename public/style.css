@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  margin: 0;
+  padding: 1.25em;
+}
+
+.title {
+  text-align: center;
+}
