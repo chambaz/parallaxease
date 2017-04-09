@@ -3,6 +3,10 @@
 }
 
 body {
+  background: url('/beastmode.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
   font-family: Helvetica, Arial, Sans-Serif;
   margin: 0;
   padding: 1.25em;
@@ -10,4 +14,30 @@ body {
 
 .title {
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.card {
+  height: 300px;
+  padding: 20px;
+  width: 100%;
+}
+
+.card__inner {
+  background: #ccc;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 33.33333%;
+  }
 }
