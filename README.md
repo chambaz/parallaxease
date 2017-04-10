@@ -23,6 +23,12 @@ $(function() {
 })
 ```
 
+Mark up target elements with `data-parallax`
+
+```
+<div data-parallax='{"y": -100}'></div>
+```
+
 **Contribute**
 
 Clone respository and run locally, [check out the demo](https://parallaxease-ldumrwjimx.now.sh/).
