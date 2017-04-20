@@ -163,11 +163,11 @@ module.exports = (function() {
               properties['scaleZ'] *= properties['scale']
             }
             var translate3d = 'translate3d(' + (properties['x'] ? properties['x'] : 0) + 'px, ' + (properties['y'] ? properties['y'] : 0) + 'px, ' + (properties['z'] ? properties['z'] : 0) + 'px)'
-            var rotate3d = 'rotateX(' + (properties['rotateX'] ? properties['rotateX'] : 0) + 'deg) rotateY(' + (properties['rotateY'] ? properties['rotateY'] : 0) + 'deg) rotateZ(' + (properties['rotateZ'] ? properties['rotateZ'] : 0) + 'deg)'
+            var rotate3d = 'rotateX(' + (properties['rotateX'] ? properties['rotateX'] : 0) + 'deg) rotateY(' + (properties['rotatenone'] ? properties['rotateY'] : 0) + 'deg) rotateZ(' + (properties['rotateZ'] ? properties['rotateZ'] : 0) + 'deg)'
             var scale3d = 'scaleX(' + properties['scaleX'] + ') scaleY(' + properties['scaleY'] + ') scaleZ(' + properties['scaleZ'] + ')'
             var cssTransform = translate3d + ' ' + rotate3d + ' ' + scale3d + ';'
             this._log(cssTransform)
-            $el.attr('style', 'transform:' + cssTransform + ' -webkit-transform:' + cssTransform + ' ' + style)
+            $el.attr('style', 'transform:' + cssTransform + ' -webkit-transform:' + cssTransform + ' ' + style + 'transition:none;-webkit-transition:none;-moz-transition:none;')
           }
         }, this))
 
