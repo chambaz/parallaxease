@@ -1,10 +1,10 @@
 {
   "name": "parallaxease",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "main": "parallaxease.js",
   "author": "Adam Chambers, @chambaz",
   "description": "An easing parallax library",
-  "homepage": "https://parallaxease-ldumrwjimx.now.sh/",
+  "homepage": "https://parallaxease-uiipfwgeqw.now.sh/",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/chambaz/parallaxease.git"
