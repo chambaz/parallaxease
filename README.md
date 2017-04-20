@@ -1,6 +1,6 @@
 # 😎 Parallaxease 😎
 
-An easing parallax library, [check out the demo](https://parallaxease-ldumrwjimx.now.sh/).
+An easing parallax library, [check out the demo](https://parallaxease-uiipfwgeqw.now.sh/).
 
 **Installation**
 
@@ -31,7 +31,7 @@ Mark up target elements with `data-parallax`
 
 **Contribute**
 
-Clone respository and run locally, [check out the demo](https://parallaxease-ldumrwjimx.now.sh/).
+Clone respository and run locally, [check out the demo](https://parallaxease-uiipfwgeqw.now.sh/).
 
 ```
 # install dependencies
